@@ -1,20 +1,18 @@
-"use client";
+import React from 'react';
+import { PageContainerProps } from '../../types';
 
-import React from "react";
-import { PageContainerProps } from "../../types";
-
-export default function PageContainer({
-  children,
-  className = "",
-  maxWidth = "7xl",
+export default function PageContainer({ 
+  children, 
+  className = '', 
+  maxWidth = '7xl' 
 }: PageContainerProps) {
   const maxWidthClass = {
-    sm: "max-w-sm",
-    md: "max-w-md",
-    lg: "max-w-lg",
-    xl: "max-w-xl",
-    "2xl": "max-w-2xl",
-    "7xl": "max-w-7xl",
+    sm: 'max-w-sm',
+    md: 'max-w-md',
+    lg: 'max-w-lg',
+    xl: 'max-w-xl',
+    '2xl': 'max-w-2xl',
+    '7xl': 'max-w-7xl'
   }[maxWidth];
 
   return (
@@ -22,4 +20,4 @@ export default function PageContainer({
       {children}
     </div>
   );
-}
+} 
