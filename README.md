@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🍽️ Meal Mate
+Meal Mate is a full-stack web application built with Next.js, designed to help users discover, create, and manage recipes and meal plans. Whether you're a home cook or a foodie exploring new dishes, Meal Mate provides an easy-to-use platform for personalized meal organization.
 
-## Getting Started
 
-First, run the development server:
+## 🚀 Getting Started
+## Clone the repository and install the dependencies:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+`git clone https://github.com/ernestsanluis/MealMate.git`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+`cd MealMate`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`npm install`
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Then open http://localhost:3000 in your browser to see the app running.
+
+
+
+🛠️ Technologies Used
+Next.js 14 – React framework for hybrid static & server rendering
+
+React.js – UI library
+
+Tailwind CSS – Utility-first CSS framework
+
+Supabase – Backend-as-a-Service (PostgreSQL + Auth + Storage)
+
+PostgreSQL – Relational database
+
+Clerk – User authentication and session management
+
+TypeScript – Strongly typed JavaScript
+
+Prisma ORM – Type-safe, modern ORM to interact with the PostgreSQL database
+
+
+✨ Features
+📋 Create, view, update, and delete your own recipes
+
+🖼️ Add images and origin categories
+
+🔍 Search, filter, and categorize recipes
+
+🧾 Ingredient and instruction fields
+
+🧑‍🍳 Authenticated user management with Clerk
+
+
 
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+🤝 Contributing
+Have an idea or improvement? Feel free to fork and submit a pull request. All contributions are welcome!
