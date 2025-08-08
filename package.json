@@ -13,7 +13,7 @@
     "db:studio": "prisma studio"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.25.4",
+    "@clerk/nextjs": "^6.29.0",
     "@supabase/supabase-js": "^2.51.0",
     "next": "^15.4.2-canary.33",
     "react": "^18",
